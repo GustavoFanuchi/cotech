@@ -1,0 +1,144 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #fdfcfb;
+  color: #0b1c38;
+  line-height: 1.6;
+  font-size: 1.2em;
+}
+
+/* Cabeçalho */
+.header {
+    background-color: #f1ede4;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  width: 180px; /* supondo que era 60px */
+  height: auto; /* mantém proporção */
+}
+
+.logo-text h1 {
+  font-size: 1.8rem;
+  color: #0b1c38;
+}
+
+.logo-text span {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* Banner */
+.banner {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  background: #0b1c38;
+  color: #fff;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.banner h2 {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+}
+
+/* Botão */
+.btn {
+  display: inline-block;
+  background: #f4a300;
+  color: #0b1c38;
+  padding: 12px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Quem Somos */
+.about {
+  padding: 50px 20px;
+  background: #fdfcfb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.about h3 {
+  font-size:2rem;
+  margin-bottom: 15px;
+  color: #0b1c38;
+}
+
+.about p {
+  font-size: 1.3rem;
+  color: #333;
+  max-width: 800px;
+}
+
+/* Serviços */
+.services {
+      background: #fff6ed;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.services h3 {
+  font-size: 1.6rem;
+  margin-bottom: 30px;
+}
+
+.service-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  justify-items: center;
+}
+
+.service-item {
+  text-align: center;
+  max-width: 250px;
+}
+
+.icon {
+  font-size: 2rem;
+  display: block;
+  margin-bottom: 10px;
+  color: #0b1c38;
+}
+
+/* Rodapé */
+.footer {
+  background: #f1f1f1;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* Tamanhos das fontes para diferentes elementos */
+.header h1
+{
+  font-size: 3em;
+}
+.header span
+{
+  font-size: 1.2em;
+}
